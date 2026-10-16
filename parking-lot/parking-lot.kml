@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Parking Lot</name>
+    <Style id="s0">
+      <LineStyle>
+        <color>ff145576</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f27A9EC</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ff0000FF</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s1">
+      <LineStyle>
+        <color>ff170C4F</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>333A1EC5</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ff0000FF</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s2">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fFFFFFF</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ff22AA00</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Course Boundary</name>
+      <description></description>
+      <styleUrl>#s0</styleUrl>
+      <Polygon>
+        <outerBoundaryIs><LinearRing>
+          <coordinates>-96.351224000,30.574242000,0 -96.351809000,30.573711000,0 -96.351637000,30.573568000,0 -96.350918000,30.573988000,0 -96.351224000,30.574242000,0</coordinates>
+        </LinearRing></outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Start</name>
+      <description></description>
+      <styleUrl>#s1</styleUrl>
+      <Polygon>
+        <outerBoundaryIs><LinearRing>
+          <coordinates>-96.351266230,30.574276925,0 -96.351197023,30.574236079,0 -96.351133156,30.574316147,0 -96.351199754,30.574371821,0 -96.351266230,30.574276925,0</coordinates>
+        </LinearRing></outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Fiducial</name>
+      <description></description>
+      <styleUrl>#s2</styleUrl>
+      <Point>
+        <coordinates>-96.351199305,30.574301336,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
