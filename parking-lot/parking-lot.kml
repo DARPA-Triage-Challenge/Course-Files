@@ -4,11 +4,11 @@
     <name>Parking Lot</name>
     <Style id="s0">
       <LineStyle>
-        <color>ff145576</color>
+        <color>ff170C4F</color>
         <width>2</width>
       </LineStyle>
       <PolyStyle>
-        <color>7f27A9EC</color>
+        <color>7f3A1EC5</color>
       </PolyStyle>
       <IconStyle>
         <color>ff0000FF</color>
@@ -20,11 +20,11 @@
     </Style>
     <Style id="s1">
       <LineStyle>
-        <color>ff170C4F</color>
+        <color>ff115500</color>
         <width>2</width>
       </LineStyle>
       <PolyStyle>
-        <color>333A1EC5</color>
+        <color>3322AA00</color>
       </PolyStyle>
       <IconStyle>
         <color>ff0000FF</color>
@@ -43,7 +43,23 @@
         <color>7fFFFFFF</color>
       </PolyStyle>
       <IconStyle>
-        <color>ff22AA00</color>
+        <color>ffFF7F00</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s3">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fFFFFFF</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ff27A9EC</color>
         <scale>1.0</scale>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
@@ -71,11 +87,19 @@
       </Polygon>
     </Placemark>
     <Placemark>
-      <name>Fiducial</name>
+      <name>Fiducial 100</name>
       <description></description>
       <styleUrl>#s2</styleUrl>
       <Point>
         <coordinates>-96.351199305,30.574301336,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>POI 1</name>
+      <description></description>
+      <styleUrl>#s3</styleUrl>
+      <Point>
+        <coordinates>-96.351359733,30.573897260,0</coordinates>
       </Point>
     </Placemark>
   </Document>

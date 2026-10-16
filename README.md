@@ -70,18 +70,64 @@ Course-Files/
 ├── assets/
 │   └── triage-logo.png
 ├── parking-lot/
-│   ├── parking-lot.csv   # course geometry as OGC WKT
-│   └── parking-lot.kml   # same geometry, color-coded for map viewers
-└── …                     # additional courses
+│   ├── parking-lot.csv   
+│   └── parking-lot.kml   
+├── team-tent-fiducials/
+│   ├── team-tent-fiducials.csv   
+│   └── team-tent-fiducials.kml   
+├── practice-1/
+│   ├── practice-1.csv   
+│   └── practice-1.kml   
+├── practice-2/
+│   ├── practice-2.csv   
+│   └── practice-2.kml   
+├── gate-1/
+│   ├── gate-1.csv   
+│   └── gate-1.kml   
+├── gate-2/
+│   ├── gate-2.csv   
+│   └── gate-2.kml   
+├── gate-3/
+│   ├── gate-3.csv   
+│   └── gate-3.kml   
+├── gate-4/
+│   ├── gate-4.csv   
+│   └── gate-4.kml   
+├── hmt-day/
+│   ├── hmt-day.csv   
+│   └── hmt-day.kml   
+├── hmt-night/
+│   ├── hmt-night.csv   
+│   └── hmt-night.kml   
+├── championship/
+│   ├── championship.csv   
+│   └── championship.kml   
 ```
 
 ### What's in each course file
 
 | Feature | Geometry | KML color | Description |
 | --- | --- | --- | --- |
-| **Course Boundary** | Polygon | 🟠 Amber | The geofence for the course |
-| **Start** | Polygon | 🔴 Red | The starting zone for the course (supplied per course) |
-| **Fiducial** | Point | 🟢 Green | Fiducial location, provided as a single point |
+| **Course Boundary** | Polygon | 🔴 Red | The geofence for the course |
+| **Start** | Polygon | 🟢 Green | The starting zone for the course (supplied per course) |
+| **Fiducial &lt;number&gt;** | Point | 🔵 Blue | Fiducial location, provided as a single point (see below) |
+| **POI &lt;number&gt;** | Point | 🟠 Amber | *Optional.* Points of interest for the course (see below) |
+
+#### Fiducials
+
+Each fiducial is named with a number, e.g. `Fiducial 100`. Every distinct physical
+fiducial location has its own unique number. If a fiducial appears in more than one
+course file, it keeps the same number in each.
+
+#### Points of interest (optional)
+
+A course may optionally include one or more points of interest, each provided as a
+single point and named sequentially: `POI 1`, `POI 2`, and so on. Courses without
+points of interest simply omit these features. A description of what these POIs
+represent will be provided in a future update.
+
+> The `parking-lot` course includes an example `POI 1` placed at the centroid of the
+> course boundary.
 
 ### File formats
 
