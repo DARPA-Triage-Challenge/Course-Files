@@ -2,5 +2,135 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Gate 1</name>
+    <Style id="s0">
+      <LineStyle>
+        <color>ff170C4F</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f3A1EC5</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ff0000FF</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s1">
+      <LineStyle>
+        <color>ff115500</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3322AA00</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ff0000FF</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s2">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fFFFFFF</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ffFF7F00</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s4">
+      <LineStyle>
+        <color>ff800080</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f800080</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ff800080</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Course Boundary</name>
+      <description></description>
+      <styleUrl>#s0</styleUrl>
+      <Polygon>
+        <outerBoundaryIs><LinearRing>
+          <coordinates>-96.352046567,30.574476367,0 -96.351991953,30.574435890,0 -96.351948065,30.574433708,0 -96.351901945,30.574458702,0 -96.351723328,30.574619297,0 -96.351696092,30.574656862,0 -96.351697052,30.574697377,0 -96.351719110,30.574727445,0 -96.351892790,30.574866007,0 -96.351896512,30.575013407,0 -96.351703187,30.575198885,0 -96.351705858,30.575464830,0 -96.351768442,30.575528507,0 -96.351836110,30.575598457,0 -96.351872288,30.575610437,0 -96.352016697,30.575589553,0 -96.352156708,30.575506802,0 -96.352178448,30.575404398,0 -96.352130207,30.575255660,0 -96.352068958,30.575174363,0 -96.352382825,30.574897655,0 -96.352107763,30.574673690,0 -96.352185990,30.574595423,0 -96.352136312,30.574553248,0 -96.352185580,30.574509192,0 -96.352093972,30.574433198,0 -96.352046567,30.574476367,0</coordinates>
+        </LinearRing></outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Start</name>
+      <description></description>
+      <styleUrl>#s1</styleUrl>
+      <Polygon>
+        <outerBoundaryIs><LinearRing>
+          <coordinates>-96.352046567,30.574476367,0 -96.352136312,30.574553248,0 -96.352185580,30.574509192,0 -96.352093972,30.574433198,0 -96.352046567,30.574476367,0</coordinates>
+        </LinearRing></outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Gate 1 Exclusion Zone 1</name>
+      <description>Catwalk North</description>
+      <styleUrl>#s4</styleUrl>
+      <Polygon>
+        <outerBoundaryIs><LinearRing>
+          <coordinates>-96.351829158,30.575318980,0 -96.351818262,30.575326918,0 -96.351838833,30.575342333,0 -96.351846500,30.575335833,0 -96.351829158,30.575318980,0</coordinates>
+        </LinearRing></outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Gate 1 Exclusion Zone 2</name>
+      <description>Catwalk South</description>
+      <styleUrl>#s4</styleUrl>
+      <Polygon>
+        <outerBoundaryIs><LinearRing>
+          <coordinates>-96.351990909,30.575163470,0 -96.351979963,30.575171194,0 -96.351999500,30.575187000,0 -96.352009500,30.575180333,0 -96.351990909,30.575163470,0</coordinates>
+        </LinearRing></outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Gate 1 Exclusion Zone 3</name>
+      <description>Spotter In Blind</description>
+      <styleUrl>#s4</styleUrl>
+      <Polygon>
+        <outerBoundaryIs><LinearRing>
+          <coordinates>-96.352028667,30.574666995,0 -96.352011060,30.574650268,0 -96.351978274,30.574660200,0 -96.351983131,30.574681109,0 -96.352009239,30.574686859,0 -96.352028667,30.574666995,0</coordinates>
+        </LinearRing></outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Fiducial 3</name>
+      <description></description>
+      <styleUrl>#s2</styleUrl>
+      <Point>
+        <coordinates>-96.352137158,30.574537013,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fiducial 4</name>
+      <description></description>
+      <styleUrl>#s2</styleUrl>
+      <Point>
+        <coordinates>-96.352098155,30.574444448,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>

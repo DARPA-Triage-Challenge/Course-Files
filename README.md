@@ -62,8 +62,9 @@ Learn more:
 
 ## Repository Structure
 
-The repository is organized as **one folder per course**. Each folder holds a single
-CSV and KML describing that course's geometry.
+The repository is organized as **one folder per course**. Each folder holds a CSV and
+KML describing that course's geometry. Courses with course locations also have a
+`<course>-locations.csv`.
 
 ```
 Course-Files/
@@ -86,13 +87,16 @@ Course-Files/
 │   └── gate-1.kml   
 ├── gate-2/
 │   ├── gate-2.csv   
-│   └── gate-2.kml   
+│   ├── gate-2.kml   
+│   └── gate-2-locations.csv   
 ├── gate-3/
 │   ├── gate-3.csv   
-│   └── gate-3.kml   
+│   ├── gate-3.kml   
+│   └── gate-3-locations.csv   
 ├── gate-4/
 │   ├── gate-4.csv   
-│   └── gate-4.kml   
+│   ├── gate-4.kml   
+│   └── gate-4-locations.csv   
 ├── hmt-day/
 │   ├── hmt-day.csv   
 │   └── hmt-day.kml   
@@ -110,14 +114,20 @@ Course-Files/
 | --- | --- | --- | --- |
 | **Course Boundary** | Polygon | 🔴 Red | The geofence for the course |
 | **Start** | Polygon | 🟢 Green | The starting zone for the course (supplied per course) |
+| **&lt;Course&gt; Exclusion Zone &lt;number&gt;** | Polygon | 🟣 Purple | *Optional.* An area where safety spotters will operate inside the course, e.g. `Gate 1 Exclusion Zone 1`, with what it is in the description (e.g. `Catwalk North`) |
 | **Fiducial &lt;number&gt;** | Point | 🔵 Blue | Fiducial location, provided as a single point (see below) |
 | **POI &lt;number&gt;** | Point | 🟠 Amber | *Optional.* Points of interest for the course (see below) |
+| **Location &lt;letter&gt;** | Point | 🟠 Amber | *`gate-2`, `gate-3`, and `gate-4` only.* Course location named by its letter, e.g. `A`, with `darpa_id` in the KML `ExtendedData` |
 
 #### Fiducials
 
 Each fiducial is named with a number, e.g. `Fiducial 100`. Every distinct physical
-fiducial location has its own unique number. If a fiducial appears in more than one
-course file, it keeps the same number in each.
+fiducial location has its own unique number across all courses. If the same physical fiducial location
+appears in more than one course file, it keeps the same number in each: `gate-2` and `gate-3` share
+`Fiducial 5` and `Fiducial 6`.
+
+Team fiducials in `team-tent-fiducials` follow the same naming, with the team name in the
+description.
 
 #### Points of interest (optional)
 
@@ -131,12 +141,17 @@ represent will be provided in a future update.
 
 ### File formats
 
-- **`<course>.csv`** — three columns: `WKT`, `Name`, `Description`. Geometry is stored
-  as [OGC Well-Known Text](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry)
+- **`<course>.csv`** — five columns: `WKT`, `Name`, `Description`, `lat`, `lon`. Geometry is
+  stored as [OGC Well-Known Text](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry)
   (`POLYGON`/`POINT`) in **WGS 84 (EPSG:4326)**, with coordinates in **`longitude latitude`**
-  order. Ideal for spreadsheets, GIS imports, and scripting.
+  order. `lat` and `lon` are filled for points and blank for polygons. Ideal for spreadsheets,
+  GIS imports, and scripting.
 - **`<course>.kml`** — the same features as styled placemarks, ready to open directly in
   **Google Earth**, **QGIS**, or **ArcGIS**. Each feature is color-coded per the table above.
+- **`<course>-locations.csv`** — course locations for `gate-2`, `gate-3`, and `gate-4`, with
+  columns `WKT`, `Name`, `Description`, `darpa_id`, `lat`, `lon`. Each location
+  is a `POINT`, and `Description` is currently empty. The same locations are also in
+  `<course>.kml`.
 
 ### Coordinate reference
 

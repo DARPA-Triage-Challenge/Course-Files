@@ -2,5 +2,101 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Team Tent Fiducials</name>
+    <Style id="s2">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fFFFFFF</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ffFF7F00</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Fiducial 20</name>
+      <description>DART</description>
+      <styleUrl>#s2</styleUrl>
+      <Point>
+        <coordinates>-96.353060372,30.575026682,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fiducial 21</name>
+      <description>Guardian Angel</description>
+      <styleUrl>#s2</styleUrl>
+      <Point>
+        <coordinates>-96.353094427,30.574974065,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fiducial 22</name>
+      <description>DRONE</description>
+      <styleUrl>#s2</styleUrl>
+      <Point>
+        <coordinates>-96.353127707,30.574921728,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fiducial 23</name>
+      <description>ACTIV</description>
+      <styleUrl>#s2</styleUrl>
+      <Point>
+        <coordinates>-96.353161453,30.574869953,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fiducial 24</name>
+      <description>PRONTO</description>
+      <styleUrl>#s2</styleUrl>
+      <Point>
+        <coordinates>-96.353195575,30.574820997,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fiducial 25</name>
+      <description>Chiron</description>
+      <styleUrl>#s2</styleUrl>
+      <Point>
+        <coordinates>-96.353121908,30.574816128,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fiducial 26</name>
+      <description>AIR TAGS</description>
+      <styleUrl>#s2</styleUrl>
+      <Point>
+        <coordinates>-96.353086558,30.574864750,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fiducial 27</name>
+      <description>TTT</description>
+      <styleUrl>#s2</styleUrl>
+      <Point>
+        <coordinates>-96.353056837,30.574912690,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fiducial 28</name>
+      <description>UAS-DTU</description>
+      <styleUrl>#s2</styleUrl>
+      <Point>
+        <coordinates>-96.353026067,30.574959465,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fiducial 29</name>
+      <description>RoboScout</description>
+      <styleUrl>#s2</styleUrl>
+      <Point>
+        <coordinates>-96.352964722,30.575049160,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>

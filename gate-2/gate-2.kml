@@ -2,5 +2,270 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Gate 2</name>
+    <Style id="s0">
+      <LineStyle>
+        <color>ff170C4F</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f3A1EC5</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ff0000FF</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s1">
+      <LineStyle>
+        <color>ff115500</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3322AA00</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ff0000FF</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s2">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fFFFFFF</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ffFF7F00</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s3">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fFFFFFF</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ff27A9EC</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Course Boundary</name>
+      <description></description>
+      <styleUrl>#s0</styleUrl>
+      <Polygon>
+        <outerBoundaryIs><LinearRing>
+          <coordinates>-96.352829500,30.575374667,0 -96.352772833,30.575348667,0 -96.352807333,30.575293333,0 -96.352597667,30.575128167,0 -96.352363000,30.575338500,0 -96.352497833,30.575498167,0 -96.352570667,30.575526667,0 -96.352684167,30.575482667,0 -96.352710667,30.575442667,0 -96.352767167,30.575470167,0 -96.352829500,30.575374667,0</coordinates>
+        </LinearRing></outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Start</name>
+      <description></description>
+      <styleUrl>#s1</styleUrl>
+      <Polygon>
+        <outerBoundaryIs><LinearRing>
+          <coordinates>-96.352772833,30.575348667,0 -96.352829500,30.575374667,0 -96.352767167,30.575470167,0 -96.352710667,30.575442667,0 -96.352772833,30.575348667,0</coordinates>
+        </LinearRing></outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Fiducial 5</name>
+      <description></description>
+      <styleUrl>#s2</styleUrl>
+      <Point>
+        <coordinates>-96.352733500,30.575444000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fiducial 6</name>
+      <description></description>
+      <styleUrl>#s2</styleUrl>
+      <Point>
+        <coordinates>-96.352786000,30.575363333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>A</name>
+      <description></description>
+      <styleUrl>#s3</styleUrl>
+      <ExtendedData>
+        <Data name="darpa_id"><value>1</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-96.352728500,30.575288500,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>B</name>
+      <description></description>
+      <styleUrl>#s3</styleUrl>
+      <ExtendedData>
+        <Data name="darpa_id"><value>2</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-96.352698000,30.575332167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>C</name>
+      <description></description>
+      <styleUrl>#s3</styleUrl>
+      <ExtendedData>
+        <Data name="darpa_id"><value>3</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-96.352635500,30.575402167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D</name>
+      <description></description>
+      <styleUrl>#s3</styleUrl>
+      <ExtendedData>
+        <Data name="darpa_id"><value>4</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-96.352579667,30.575458000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>E</name>
+      <description></description>
+      <styleUrl>#s3</styleUrl>
+      <ExtendedData>
+        <Data name="darpa_id"><value>5</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-96.352681000,30.575253333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>F</name>
+      <description></description>
+      <styleUrl>#s3</styleUrl>
+      <ExtendedData>
+        <Data name="darpa_id"><value>6</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-96.352616333,30.575308167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>G</name>
+      <description></description>
+      <styleUrl>#s3</styleUrl>
+      <ExtendedData>
+        <Data name="darpa_id"><value>7</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-96.352579833,30.575373500,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>H</name>
+      <description></description>
+      <styleUrl>#s3</styleUrl>
+      <ExtendedData>
+        <Data name="darpa_id"><value>8</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-96.352537833,30.575428667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>I</name>
+      <description></description>
+      <styleUrl>#s3</styleUrl>
+      <ExtendedData>
+        <Data name="darpa_id"><value>9</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-96.352629500,30.575215000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>J</name>
+      <description></description>
+      <styleUrl>#s3</styleUrl>
+      <ExtendedData>
+        <Data name="darpa_id"><value>10</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-96.352620500,30.575270167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>K</name>
+      <description></description>
+      <styleUrl>#s3</styleUrl>
+      <ExtendedData>
+        <Data name="darpa_id"><value>11</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-96.352536500,30.575314333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>L</name>
+      <description></description>
+      <styleUrl>#s3</styleUrl>
+      <ExtendedData>
+        <Data name="darpa_id"><value>12</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-96.352470667,30.575375500,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>M</name>
+      <description></description>
+      <styleUrl>#s3</styleUrl>
+      <ExtendedData>
+        <Data name="darpa_id"><value>13</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-96.352572500,30.575189167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>N</name>
+      <description></description>
+      <styleUrl>#s3</styleUrl>
+      <ExtendedData>
+        <Data name="darpa_id"><value>14</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-96.352578000,30.575236167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>O</name>
+      <description></description>
+      <styleUrl>#s3</styleUrl>
+      <ExtendedData>
+        <Data name="darpa_id"><value>15</value></Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>-96.352441500,30.575340833,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
