@@ -2,5 +2,31 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Practice 2</name>
+    <Style id="s0">
+      <LineStyle>
+        <color>ff170C4F</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f3A1EC5</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ff0000FF</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Course Boundary</name>
+      <description></description>
+      <styleUrl>#s0</styleUrl>
+      <Polygon>
+        <outerBoundaryIs><LinearRing>
+          <coordinates>-96.352537167,30.576057667,0 -96.352656333,30.575994500,0 -96.352582500,30.575901500,0 -96.352463500,30.575984000,0 -96.352537167,30.576057667,0</coordinates>
+        </LinearRing></outerBoundaryIs>
+      </Polygon>
+    </Placemark>
   </Document>
 </kml>
