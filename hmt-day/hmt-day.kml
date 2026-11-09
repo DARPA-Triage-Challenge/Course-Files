@@ -2,5 +2,113 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>HMT Day</name>
+    <Style id="s0">
+      <LineStyle>
+        <color>ff170C4F</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f3A1EC5</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ff0000FF</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s1">
+      <LineStyle>
+        <color>ff115500</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3322AA00</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ff0000FF</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s2">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fFFFFFF</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ffFF7F00</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s3">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fFFFFFF</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ff27A9EC</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Course Boundary</name>
+      <description></description>
+      <styleUrl>#s0</styleUrl>
+      <Polygon>
+        <outerBoundaryIs><LinearRing>
+          <coordinates>-96.350536005,30.575290262,0 -96.350579425,30.575335387,0 -96.350631665,30.575439332,0 -96.350793275,30.575619415,0 -96.350933790,30.575686185,0 -96.350976593,30.575704525,0 -96.351295420,30.575856723,0 -96.351457983,30.575788738,0 -96.351516142,30.575678993,0 -96.351573072,30.575601415,0 -96.351456330,30.575434970,0 -96.351388333,30.575385765,0 -96.351083518,30.575247372,0 -96.350945397,30.575228330,0 -96.350660637,30.575090433,0 -96.350484303,30.575061360,0 -96.350431493,30.575032953,0 -96.350369872,30.575131102,0 -96.350423532,30.575154548,0 -96.350536005,30.575290262,0</coordinates>
+        </LinearRing></outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Start</name>
+      <description></description>
+      <styleUrl>#s1</styleUrl>
+      <Polygon>
+        <outerBoundaryIs><LinearRing>
+          <coordinates>-96.350484303,30.575061360,0 -96.350431493,30.575032953,0 -96.350369872,30.575131102,0 -96.350423532,30.575154548,0 -96.350484303,30.575061360,0</coordinates>
+        </LinearRing></outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Fiducial 1</name>
+      <description></description>
+      <styleUrl>#s2</styleUrl>
+      <Point>
+        <coordinates>-96.350465062,30.575070020,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fiducial 2</name>
+      <description></description>
+      <styleUrl>#s2</styleUrl>
+      <Point>
+        <coordinates>-96.350417633,30.575137200,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>POI 1</name>
+      <description>Intersection</description>
+      <styleUrl>#s3</styleUrl>
+      <Point>
+        <coordinates>-96.351004436,30.575267964,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
