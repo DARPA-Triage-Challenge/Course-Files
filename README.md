@@ -132,11 +132,12 @@ description.
 #### Points of interest (optional)
 
 A course may optionally include one or more points of interest, each provided as a
-single point and named sequentially: `POI 1`, `POI 2`, and so on. Courses without
-points of interest simply omit these features. A description of what these POIs
-represent will be provided in a future update.
+single point and named with a number, e.g. `POI 1`. Like fiducials, every POI has its
+own unique number across all courses: `hmt-day` has `POI 1` and `hmt-night` has
+`POI 2`. Courses without points of interest simply omit these features. A description
+of what these POIs represent will be provided in a future update.
 
-> The `parking-lot` course includes an example `POI 1` placed at the centroid of the
+> The `parking-lot` course includes an example `POI 100` placed at the centroid of the
 > course boundary.
 
 ### File formats

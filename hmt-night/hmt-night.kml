@@ -2,5 +2,169 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>HMT Night</name>
+    <Style id="s0">
+      <LineStyle>
+        <color>ff170C4F</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f3A1EC5</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ff0000FF</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s1">
+      <LineStyle>
+        <color>ff115500</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3322AA00</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ff0000FF</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s2">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fFFFFFF</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ffFF7F00</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s3">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fFFFFFF</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ff27A9EC</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s4">
+      <LineStyle>
+        <color>ff800080</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f800080</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ff800080</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Course Boundary</name>
+      <description></description>
+      <styleUrl>#s0</styleUrl>
+      <Polygon>
+        <outerBoundaryIs><LinearRing>
+          <coordinates>-96.351358662,30.574949470,0 -96.351365935,30.574935715,0 -96.351579983,30.574740340,0 -96.351622772,30.574735310,0 -96.351830178,30.574913592,0 -96.351838798,30.574922532,0 -96.351847433,30.574940512,0 -96.351847393,30.574950335,0 -96.351845633,30.574961287,0 -96.351833127,30.574980828,0 -96.351662712,30.575146175,0 -96.351651603,30.575157942,0 -96.351640547,30.575168010,0 -96.351623758,30.575174432,0 -96.351611010,30.575177187,0 -96.351600758,30.575176100,0 -96.351535173,30.575121377,0 -96.351083518,30.575247372,0 -96.350945397,30.575228330,0 -96.350423532,30.575154548,0 -96.350369872,30.575131102,0 -96.350431493,30.575032953,0 -96.350484303,30.575061360,0 -96.351358662,30.574949470,0</coordinates>
+        </LinearRing></outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Start</name>
+      <description></description>
+      <styleUrl>#s1</styleUrl>
+      <Polygon>
+        <outerBoundaryIs><LinearRing>
+          <coordinates>-96.350484303,30.575061360,0 -96.350431493,30.575032953,0 -96.350369872,30.575131102,0 -96.350423532,30.575154548,0 -96.350484303,30.575061360,0</coordinates>
+        </LinearRing></outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>HMT Night Exclusion Zone 1</name>
+      <description>Guard Tower East</description>
+      <styleUrl>#s4</styleUrl>
+      <Polygon>
+        <outerBoundaryIs><LinearRing>
+          <coordinates>-96.351390427,30.574949378,0 -96.351372218,30.574965148,0 -96.351401012,30.574980820,0 -96.351409773,30.574976665,0 -96.351390427,30.574949378,0</coordinates>
+        </LinearRing></outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>HMT Night Exclusion Zone 2</name>
+      <description>Guard Tower North</description>
+      <styleUrl>#s4</styleUrl>
+      <Polygon>
+        <outerBoundaryIs><LinearRing>
+          <coordinates>-96.351624953,30.575156202,0 -96.351610297,30.575168006,0 -96.351588250,30.575145397,0 -96.351594868,30.575140435,0 -96.351624953,30.575156202,0</coordinates>
+        </LinearRing></outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>HMT Night Exclusion Zone 3</name>
+      <description>Guard Tower South</description>
+      <styleUrl>#s4</styleUrl>
+      <Polygon>
+        <outerBoundaryIs><LinearRing>
+          <coordinates>-96.351604690,30.574758747,0 -96.351621273,30.574745705,0 -96.351642882,30.574766178,0 -96.351632988,30.574775148,0 -96.351604690,30.574758747,0</coordinates>
+        </LinearRing></outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>HMT Night Exclusion Zone 4</name>
+      <description>Guard Tower West</description>
+      <styleUrl>#s4</styleUrl>
+      <Polygon>
+        <outerBoundaryIs><LinearRing>
+          <coordinates>-96.351828222,30.574955310,0 -96.351845448,30.574943468,0 -96.351818007,30.574924805,0 -96.351808920,30.574930503,0 -96.351828222,30.574955310,0</coordinates>
+        </LinearRing></outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Fiducial 1</name>
+      <description></description>
+      <styleUrl>#s2</styleUrl>
+      <Point>
+        <coordinates>-96.350465062,30.575070020,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fiducial 2</name>
+      <description></description>
+      <styleUrl>#s2</styleUrl>
+      <Point>
+        <coordinates>-96.350417633,30.575137200,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>POI 2</name>
+      <description>Entry Gate</description>
+      <styleUrl>#s3</styleUrl>
+      <Point>
+        <coordinates>-96.351492616,30.575103353,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
