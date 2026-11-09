@@ -160,7 +160,7 @@
     </Placemark>
     <Placemark>
       <name>POI 2</name>
-      <description>Entry Gate</description>
+      <description>Incident Address</description>
       <styleUrl>#s3</styleUrl>
       <Point>
         <coordinates>-96.351492616,30.575103353,0</coordinates>
