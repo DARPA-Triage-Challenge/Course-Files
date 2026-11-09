@@ -103,6 +103,22 @@
       </Point>
     </Placemark>
     <Placemark>
+      <name>Fiducial 30</name>
+      <description>OCU</description>
+      <styleUrl>#s2</styleUrl>
+      <Point>
+        <coordinates>-96.350368000,30.575119333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fiducial 31</name>
+      <description>OCU</description>
+      <styleUrl>#s2</styleUrl>
+      <Point>
+        <coordinates>-96.350420000,30.575039667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
       <name>POI 1</name>
       <description>Intersection</description>
       <styleUrl>#s3</styleUrl>
