@@ -2,5 +2,129 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Championship</name>
+    <Style id="s0">
+      <LineStyle>
+        <color>ff170C4F</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7f3A1EC5</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ff0000FF</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s1">
+      <LineStyle>
+        <color>ff115500</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3322AA00</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ff0000FF</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s2">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fFFFFFF</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ffFF7F00</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="s3">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fFFFFFF</color>
+      </PolyStyle>
+      <IconStyle>
+        <color>ff27A9EC</color>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Course Boundary</name>
+      <description></description>
+      <styleUrl>#s0</styleUrl>
+      <Polygon>
+        <outerBoundaryIs><LinearRing>
+          <coordinates>-96.350433807,30.576191463,0 -96.350485893,30.576189692,0 -96.350628743,30.576198485,0 -96.350890223,30.576230612,0 -96.351089042,30.576125357,0 -96.351294543,30.576187330,0 -96.351537225,30.576311867,0 -96.351691158,30.576424578,0 -96.351546460,30.576694760,0 -96.351296447,30.576632718,0 -96.350978760,30.576584137,0 -96.350656600,30.576553742,0 -96.350286975,30.576542658,0 -96.350235492,30.576545097,0 -96.350110552,30.576531967,0 -96.350119192,30.576480333,0 -96.350283330,30.576323477,0 -96.350388155,30.576201037,0 -96.350433807,30.576191463,0</coordinates>
+        </LinearRing></outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Start</name>
+      <description></description>
+      <styleUrl>#s1</styleUrl>
+      <Polygon>
+        <outerBoundaryIs><LinearRing>
+          <coordinates>-96.350235492,30.576545097,0 -96.350110552,30.576531967,0 -96.350119192,30.576480333,0 -96.350241535,30.576494755,0 -96.350235492,30.576545097,0</coordinates>
+        </LinearRing></outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Fiducial 32</name>
+      <description></description>
+      <styleUrl>#s2</styleUrl>
+      <Point>
+        <coordinates>-96.350228402,30.576507818,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fiducial 33</name>
+      <description></description>
+      <styleUrl>#s2</styleUrl>
+      <Point>
+        <coordinates>-96.350130387,30.576502920,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fiducial 34</name>
+      <description>OCU</description>
+      <styleUrl>#s2</styleUrl>
+      <Point>
+        <coordinates>-96.350104302,30.576538167,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fiducial 35</name>
+      <description>OCU</description>
+      <styleUrl>#s2</styleUrl>
+      <Point>
+        <coordinates>-96.350040408,30.576526215,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>POI 3</name>
+      <description>Guard Station</description>
+      <styleUrl>#s3</styleUrl>
+      <Point>
+        <coordinates>-96.350401872,30.576251635,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
